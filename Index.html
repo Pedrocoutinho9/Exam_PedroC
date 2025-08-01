@@ -6,22 +6,34 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bc font">
     <header>
-        <h1>
-            Pedro Coutinho
-        </h1>
-        <nav>
-            <ul style="list-style: none; display: flex; gap: 20px; padding: 0; margin: 0;">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div style="text-align: center; margin: 20px 0;">
+            <h1>
+                Pedro Coutinho
+            </h1>
+        </div>
+        <div class="nb">
+            <nav>
+                <ul style="list-style: none; display: flex; justify-content: space-between; padding: 0; margin: 0; width: 100%;  </ul>border-bottom: 1px solid #ccc;">
+                    <li style="flex: 1; text-align: center; border-right: 1px solid #ccc;">
+                        <a href="#home" style="display: block; padding: 10px; text-decoration: none;">Home</a>
+                    </li>
+                    <li style="flex: 1; text-align: center; border-right: 1px solid #ccc;">
+                        <a href="#about" style="display: block; padding: 10px; text-decoration: none;">About</a>
+                    </li>
+                    <li style="flex: 1; text-align: center; border-right: 1px solid #ccc;">
+                        <a href="#skills" style="display: block; padding: 10px; text-decoration: none;">Skills</a>
+                    </li>
+                    <li style="flex: 1; text-align: center;">
+                        <a href="#contact" style="display: block; padding: 10px; text-decoration: none;">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-        <div>
+        <div class="ma">
             <h1>
                 About Me:
             </h1>
@@ -32,7 +44,7 @@
             </p>
         </div>
 
-        <div>
+        <div class="ma b">
             <h1>
                 Skills:
             </h1>
@@ -45,26 +57,26 @@
             </ul>
         </div>
 
-        <div>
-        <h1>Contact Me:</h1>
-        <form action="#" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        <div class="hm ma">
+            <h1>Contact Me:</h1>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject" placeholder="Enter the subject"><br><br>
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" placeholder="Enter the subject"><br><br>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here"></textarea><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here"></textarea><br><br>
 
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
-        </form>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
         </div>
-        <footer>
+        <footer class="fs">
             <p>
                 &copy; 2025 Pedro Coutinho, For study purposes only.
             </p>

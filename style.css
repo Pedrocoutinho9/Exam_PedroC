@@ -1,0 +1,31 @@
+.font{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bc{
+    background-color: grey;
+}
+
+.nb{
+    background-color: red;
+}
+
+.fs{
+    background-color: red;
+    padding: 10px;
+}
+
+.hm{
+    margin-bottom: 10px;
+}
+
+.ma{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.b{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
